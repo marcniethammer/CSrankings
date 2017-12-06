@@ -132,18 +132,22 @@ class CSRankings {
 	    'ijcai' : 'ai',
 	    'cvpr' : 'vision',
 	    'eccv' : 'vision',
-	    'iccv' : 'vision'
+	    'iccv' : 'vision',
+	    'ipmi' : 'mia',
+	    'miccai' : 'mia'
 	  };
     
     private readonly childMap : {[key : string] : [string] }
 	= { 'ai' : ['aaai', 'ijcai'],
-	    'vision' : ['cvpr', 'eccv', 'iccv'] };
+	    'vision' : ['cvpr', 'eccv', 'iccv'],
+	     'mia' : ['ipmi', 'miccai'] };
     
     private readonly areaMap : Array<AreaMap>
 	= [ { area : "ai", title : "AI" },
 //	    { area : "aaai", title : "AI" },
 //	    { area : "ijcai", title : "AI" },
 	    { area : "vision", title : "Vision" },
+	    { area : "mia", title: "Medical Image Analysis" },
 //	    { area : "cvpr", title : "Vision" },
 //	    { area : "eccv", title : "Vision" },
 //	    { area : "iccv", title : "Vision" },
@@ -177,7 +181,7 @@ class CSRankings {
     private readonly aiAreas      = [ "ai", "vision", "mlmining", "nlp", "ir" ];
     private readonly systemsAreas = [ "arch", "comm", "sec", "mod", "hpc", "mobile", "metrics", "ops", "plan", "soft", "da", "bed" ];
     private readonly theoryAreas  = [ "act", "crypt", "log" ];
-    private readonly interdisciplinaryAreas   = [ "graph", "chi", "robotics", "bio", "vis", "ecom" ];
+    private readonly interdisciplinaryAreas   = [ "graph", "chi", "robotics", "bio", "vis", "ecom", "mia" ];
     
     public static readonly areas : Array<string> = [];
     private readonly areaNames : Array<string> = [];

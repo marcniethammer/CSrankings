@@ -111,3 +111,9 @@ area,canonical,alternate,default
 "vision","ECCV","ECCV (5)",True
 "vision","ECCV","ECCV (6)",True
 "vision","ECCV","ECCV (7)",True
+"mia","MICCAI","MICCAI",True
+"mia","MICCAI","MICCAI (1)",True
+"mia","MICCAI","MICCAI (2)",True
+"mia","MICCAI","MICCAI (3)",True
+"mia","IPMI","IPMI",True
+

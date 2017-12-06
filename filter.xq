@@ -124,7 +124,12 @@
 //inproceedings[booktitle="ECCV (7)"],
 //inproceedings[booktitle="SIGCSE"],
 //inproceedings[booktitle="EC"],
-//inproceedings[booktitle="WINE"]}</dblp>
+//inproceedings[booktitle="WINE"],
+//inproceedings[booktitle="MICCAI"],
+//inproceedings[booktitle="MICCAI (1)"],
+//inproceedings[booktitle="MICCAI (2)"],
+//inproceedings[booktitle="MICCAI (3)"],
+//inproceedings[booktitle="IPMI"]}</dblp>
 ]]>
 </xquery>
 <close />

@@ -100,6 +100,7 @@ areadict = {
             'HLT/EMNLP',  # -- in 2005 was joint
             ],
     'vision': ['CVPR', 'CVPR (1)', 'CVPR (2)', 'ICCV', 'ECCV (1)', 'ECCV (2)', 'ECCV (3)', 'ECCV (4)', 'ECCV (5)', 'ECCV (6)', 'ECCV (7)'],
+    'mia': ['MICCAI', 'MICCAI (1)', 'MICCAI (2)', 'MICCAI (3)', 'IPMI'],
     # SIGMOBILE
     'mobile': ['MobiSys', 'MobiCom', 'MOBICOM', 'SenSys'],
     'robotics': ['ICRA', 'ICRA (1)', 'ICRA (2)', 'IROS', 'Robotics: Science and Systems'],
