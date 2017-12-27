@@ -33,6 +33,7 @@ var CSRankings = /** @class */ (function () {
             { area: "aaai", title: "AI" },
             { area: "ijcai", title: "AI" },
             { area: "vision", title: "Vision" },
+            { area: "mia", title: "Medical Image Analysis" },
             { area: "cvpr", title: "Vision" },
             { area: "eccv", title: "Vision" },
             { area: "iccv", title: "Vision" },
@@ -135,7 +136,7 @@ var CSRankings = /** @class */ (function () {
         this.aiAreas = ["ai", "vision", "mlmining", "nlp", "ir"];
         this.systemsAreas = ["arch", "comm", "sec", "mod", "hpc", "mobile", "metrics", "ops", "plan", "soft", "da", "bed"];
         this.theoryAreas = ["act", "crypt", "log"];
-        this.interdisciplinaryAreas = ["graph", "chi", "robotics", "bio", "visualization", "ecom"];
+        this.interdisciplinaryAreas = ["graph", "chi", "robotics", "bio", "visualization", "ecom", "mia"];
         this.areaNames = [];
         this.fields = [];
         this.aiFields = [];
@@ -1392,6 +1393,8 @@ var CSRankings = /** @class */ (function () {
         'cvpr': 'vision',
         'eccv': 'vision',
         'iccv': 'vision',
+        'ipmi': 'mia',
+        'miccai': 'mia',
         'icml': 'mlmining',
         'kdd': 'mlmining',
         'nips': 'mlmining',

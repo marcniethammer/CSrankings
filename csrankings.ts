@@ -154,7 +154,7 @@ class CSRankings {
 	    'eccv' : 'vision',
 	    'iccv' : 'vision',
 	    'ipmi' : 'mia',
-	    'miccai' : 'mia'
+	    'miccai' : 'mia',
 	    'icml' : 'mlmining',
 	    'kdd' : 'mlmining',
 	    'nips' : 'mlmining',
